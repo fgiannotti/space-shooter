@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://gqyg4vk63y7g"
-path="res://.godot/imported/sfx_laser1.ogg-953c380e7d52eab00f1715a4a910b1a2.oggvorbisstr"
+path="res://.godot/imported/sfx_laser1.ogg-822155ac31ec646760002555402ff0a0.oggvorbisstr"
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/Bonus/sfx_laser1.ogg"
-dest_files=["res://.godot/imported/sfx_laser1.ogg-953c380e7d52eab00f1715a4a910b1a2.oggvorbisstr"]
+source_file="res://assets/Bonus/sfx_laser1.ogg"
+dest_files=["res://.godot/imported/sfx_laser1.ogg-822155ac31ec646760002555402ff0a0.oggvorbisstr"]
 
 [params]
 

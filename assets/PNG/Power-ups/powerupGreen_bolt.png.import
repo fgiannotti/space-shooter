@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfs2xcoqv7ce"
-path="res://.godot/imported/powerupGreen_bolt.png-7f97d9bc681e9128256102e4e35b1d8b.ctex"
+path="res://.godot/imported/powerupGreen_bolt.png-44c81b7cdfeb1978a94f84d14a5a6cf6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/Power-ups/powerupGreen_bolt.png"
-dest_files=["res://.godot/imported/powerupGreen_bolt.png-7f97d9bc681e9128256102e4e35b1d8b.ctex"]
+source_file="res://assets/PNG/Power-ups/powerupGreen_bolt.png"
+dest_files=["res://.godot/imported/powerupGreen_bolt.png-44c81b7cdfeb1978a94f84d14a5a6cf6.ctex"]
 
 [params]
 

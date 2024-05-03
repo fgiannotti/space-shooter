@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fjeccjxfetc6"
-path="res://.godot/imported/speed.png-20a960379ba8aad29ebbf059ba25faed.ctex"
+path="res://.godot/imported/speed.png-9b3f401fe7c03c836de36a6a78224be9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/Effects/speed.png"
-dest_files=["res://.godot/imported/speed.png-20a960379ba8aad29ebbf059ba25faed.ctex"]
+source_file="res://assets/PNG/Effects/speed.png"
+dest_files=["res://.godot/imported/speed.png-9b3f401fe7c03c836de36a6a78224be9.ctex"]
 
 [params]
 

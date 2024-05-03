@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duyhjc20nlruc"
-path="res://.godot/imported/black.png-048248ebb3dab98d61d4a3937b809bb9.ctex"
+path="res://.godot/imported/black.png-da442d1897f85ced81c5d5ef61dbf1d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/Backgrounds/black.png"
-dest_files=["res://.godot/imported/black.png-048248ebb3dab98d61d4a3937b809bb9.ctex"]
+source_file="res://assets/Backgrounds/black.png"
+dest_files=["res://.godot/imported/black.png-da442d1897f85ced81c5d5ef61dbf1d9.ctex"]
 
 [params]
 

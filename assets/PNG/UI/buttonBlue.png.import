@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgg7kn4wsg1cl"
-path="res://.godot/imported/buttonBlue.png-58da2393f16b5e931b122b958b143505.ctex"
+path="res://.godot/imported/buttonBlue.png-e6836f396c43459f69ddd0abda449c82.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/UI/buttonBlue.png"
-dest_files=["res://.godot/imported/buttonBlue.png-58da2393f16b5e931b122b958b143505.ctex"]
+source_file="res://assets/PNG/UI/buttonBlue.png"
+dest_files=["res://.godot/imported/buttonBlue.png-e6836f396c43459f69ddd0abda449c82.ctex"]
 
 [params]
 

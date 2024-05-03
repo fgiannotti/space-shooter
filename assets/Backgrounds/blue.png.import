@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bh6leqcfxx3km"
-path="res://.godot/imported/blue.png-51ad47a9181b550a95f0aaeccc479605.ctex"
+path="res://.godot/imported/blue.png-cd9fb76ac1e6bc0d8177575f8a6c8d4d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/Backgrounds/blue.png"
-dest_files=["res://.godot/imported/blue.png-51ad47a9181b550a95f0aaeccc479605.ctex"]
+source_file="res://assets/Backgrounds/blue.png"
+dest_files=["res://.godot/imported/blue.png-cd9fb76ac1e6bc0d8177575f8a6c8d4d.ctex"]
 
 [params]
 

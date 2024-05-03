@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4tgedp73uueu"
-path="res://.godot/imported/beamLong1.png-241a45856fb4c986f32d31a408d5501b.ctex"
+path="res://.godot/imported/beamLong1.png-34a4862f66a5e2085cff67e00e9a3d7b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/Parts/beamLong1.png"
-dest_files=["res://.godot/imported/beamLong1.png-241a45856fb4c986f32d31a408d5501b.ctex"]
+source_file="res://assets/PNG/Parts/beamLong1.png"
+dest_files=["res://.godot/imported/beamLong1.png-34a4862f66a5e2085cff67e00e9a3d7b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btmugsqvni48k"
-path="res://.godot/imported/pill_yellow.png-15facf8951b8da3d9bec764a7cbcb62d.ctex"
+path="res://.godot/imported/pill_yellow.png-e510fbdfeba0f98d4fab30786a580cc5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/Power-ups/pill_yellow.png"
-dest_files=["res://.godot/imported/pill_yellow.png-15facf8951b8da3d9bec764a7cbcb62d.ctex"]
+source_file="res://assets/PNG/Power-ups/pill_yellow.png"
+dest_files=["res://.godot/imported/pill_yellow.png-e510fbdfeba0f98d4fab30786a580cc5.ctex"]
 
 [params]
 

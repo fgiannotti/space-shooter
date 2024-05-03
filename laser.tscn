@@ -1,12 +1,18 @@
-[gd_scene load_steps=3 format=3 uid="uid://xk1vydsd23bw"]
+[gd_scene load_steps=4 format=3 uid="uid://xk1vydsd23bw"]
 
-[ext_resource type="Texture2D" uid="uid://bbs2ofc7lhewy" path="res://kenney_space-shooter-redux/PNG/Lasers/laserBlue01.png" id="1_xv14d"]
+[ext_resource type="Script" path="res://laser.gd" id="1_2vvwg"]
+[ext_resource type="Texture2D" uid="uid://bbs2ofc7lhewy" path="res://assets/PNG/Lasers/laserBlue01.png" id="1_xv14d"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_uum3u"]
 radius = 4.5
 height = 54.0
 
 [node name="Laser" type="Area2D"]
+light_mask = 8
+visibility_layer = 2
+collision_layer = 8
+collision_mask = 2
+script = ExtResource("1_2vvwg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_xv14d")

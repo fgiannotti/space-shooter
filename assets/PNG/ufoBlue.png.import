@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfe8le03003jn"
-path="res://.godot/imported/ufoBlue.png-ee2573834d531f17c26b0a18913a92ff.ctex"
+path="res://.godot/imported/ufoBlue.png-0fdd1cda99e181b199fb5f0d21fcc6f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/ufoBlue.png"
-dest_files=["res://.godot/imported/ufoBlue.png-ee2573834d531f17c26b0a18913a92ff.ctex"]
+source_file="res://assets/PNG/ufoBlue.png"
+dest_files=["res://.godot/imported/ufoBlue.png-0fdd1cda99e181b199fb5f0d21fcc6f0.ctex"]
 
 [params]
 

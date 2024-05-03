@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6py8o88l2d12"
-path="res://.godot/imported/bolt_gold.png-91c6b4cc6434ba0486952e7660d9af61.ctex"
+path="res://.godot/imported/bolt_gold.png-ae7ebf4eff4886afa852d830a79c7f57.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/Power-ups/bolt_gold.png"
-dest_files=["res://.godot/imported/bolt_gold.png-91c6b4cc6434ba0486952e7660d9af61.ctex"]
+source_file="res://assets/PNG/Power-ups/bolt_gold.png"
+dest_files=["res://.godot/imported/bolt_gold.png-ae7ebf4eff4886afa852d830a79c7f57.ctex"]
 
 [params]
 

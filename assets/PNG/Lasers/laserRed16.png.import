@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cguvsa84nbgc4"
-path="res://.godot/imported/laserRed16.png-492e47fd54b3b5c53bf4619b66e69042.ctex"
+path="res://.godot/imported/laserRed16.png-3945bd474d199f9d49596b0682127520.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/Lasers/laserRed16.png"
-dest_files=["res://.godot/imported/laserRed16.png-492e47fd54b3b5c53bf4619b66e69042.ctex"]
+source_file="res://assets/PNG/Lasers/laserRed16.png"
+dest_files=["res://.godot/imported/laserRed16.png-3945bd474d199f9d49596b0682127520.ctex"]
 
 [params]
 

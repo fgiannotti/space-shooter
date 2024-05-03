@@ -1,8 +1,12 @@
-[gd_scene load_steps=6 format=3 uid="uid://crc4n85rmsp2j"]
+[gd_scene load_steps=11 format=3 uid="uid://crc4n85rmsp2j"]
 
 [ext_resource type="Script" path="res://level.gd" id="1_5l7mm"]
-[ext_resource type="Texture2D" uid="uid://d2t7n2n4bbth" path="res://kenney_space-shooter-redux/Backgrounds/darkPurple.png" id="1_7m6hk"]
+[ext_resource type="Texture2D" uid="uid://d2t7n2n4bbth" path="res://assets/Backgrounds/darkPurple.png" id="1_7m6hk"]
 [ext_resource type="PackedScene" uid="uid://dre0rs5vsjgrs" path="res://player.tscn" id="2_yc2wn"]
+[ext_resource type="Texture2D" uid="uid://c46r0fs6qkypp" path="res://assets/PNG/Effects/star1.png" id="4_maovh"]
+[ext_resource type="Texture2D" uid="uid://d27enierwch3s" path="res://assets/PNG/Effects/star2.png" id="5_1bha6"]
+[ext_resource type="Texture2D" uid="uid://pn8wvblxo0ts" path="res://assets/PNG/Effects/star3.png" id="6_ugn4b"]
+[ext_resource type="PackedScene" uid="uid://dwrmp6y1d4uye" path="res://ui.tscn" id="7_wm3hu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lojh6"]
 size = Vector2(1420, 44.75)
@@ -10,46 +14,151 @@ size = Vector2(1420, 44.75)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7n2qs"]
 size = Vector2(104.25, 800.5)
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_q8e55"]
+animations = [{
+"frames": [{
+"duration": 5.0,
+"texture": ExtResource("4_maovh")
+}, {
+"duration": 4.0,
+"texture": ExtResource("5_1bha6")
+}, {
+"duration": 5.0,
+"texture": ExtResource("6_ugn4b")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
 [node name="Level" type="Node2D"]
+light_mask = 4
 script = ExtResource("1_5l7mm")
 
 [node name="BG" type="Sprite2D" parent="."]
 position = Vector2(650.875, 363.875)
 scale = Vector2(5.21973, 3.12598)
 texture = ExtResource("1_7m6hk")
+metadata/_edit_lock_ = true
 
 [node name="Player" parent="." instance=ExtResource("2_yc2wn")]
-position = Vector2(586, 346)
+visibility_layer = 6
+position = Vector2(600, 600)
 
 [node name="Borders" type="Node2D" parent="."]
+light_mask = 512
 
 [node name="StaticBody2D4" type="StaticBody2D" parent="Borders"]
+light_mask = 4
+collision_layer = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D4"]
-position = Vector2(675, -9.375)
+light_mask = 4
+position = Vector2(660, -18)
 shape = SubResource("RectangleShape2D_lojh6")
 
 [node name="StaticBody2D3" type="StaticBody2D" parent="Borders"]
+light_mask = 4
+collision_layer = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D3"]
-position = Vector2(-20, 362)
+light_mask = 4
+position = Vector2(-37, 374)
 shape = SubResource("RectangleShape2D_7n2qs")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="Borders"]
+light_mask = 4
+collision_layer = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D2"]
-position = Vector2(1303, 363.25)
+light_mask = 4
+position = Vector2(1325, 365)
 shape = SubResource("RectangleShape2D_7n2qs")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Borders"]
+light_mask = 4
+collision_layer = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D"]
-position = Vector2(610, 735)
+light_mask = 4
+position = Vector2(625, 738)
 shape = SubResource("RectangleShape2D_lojh6")
 
 [node name="MeteorTimer" type="Timer" parent="."]
+wait_time = 0.3
 autostart = true
 
-[node name="Meteors" type="Node2D" parent="."]
+[node name="Lasers" type="Node2D" parent="."]
+light_mask = 8
+visibility_layer = 2
+metadata/_edit_lock_ = true
 
+[node name="Stars" type="Node2D" parent="."]
+light_mask = 0
+visibility_layer = 0
+metadata/_edit_lock_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.676564
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.575748
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.575748
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.575748
+
+[node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.575748
+
+[node name="AnimatedSprite2D6" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.575748
+
+[node name="AnimatedSprite2D7" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.575748
+
+[node name="AnimatedSprite2D8" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.0120578
+
+[node name="AnimatedSprite2D9" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.0120578
+
+[node name="AnimatedSprite2D10" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.0120578
+
+[node name="AnimatedSprite2D11" type="AnimatedSprite2D" parent="Stars"]
+sprite_frames = SubResource("SpriteFrames_q8e55")
+autoplay = "default"
+frame_progress = 0.0120578
+
+[node name="Meteors" type="Node2D" parent="."]
+light_mask = 2
+visibility_layer = 9
+metadata/_edit_lock_ = true
+
+[node name="UI" parent="." instance=ExtResource("7_wm3hu")]
+
+[connection signal="laser" from="Player" to="." method="_on_player_laser"]
 [connection signal="timeout" from="MeteorTimer" to="." method="_on_meteor_timer_timeout"]

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8lm0yeby25q1"
-path="res://.godot/imported/wingRed_2.png-24c92415642dd6a86cb34041f154fa80.ctex"
+path="res://.godot/imported/wingRed_2.png-60abe85d43b97fb277384b181b227c1b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/Parts/wingRed_2.png"
-dest_files=["res://.godot/imported/wingRed_2.png-24c92415642dd6a86cb34041f154fa80.ctex"]
+source_file="res://assets/PNG/Parts/wingRed_2.png"
+dest_files=["res://.godot/imported/wingRed_2.png-60abe85d43b97fb277384b181b227c1b.ctex"]
 
 [params]
 

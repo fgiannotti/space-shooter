@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cafljb0p6rjal"
-path="res://.godot/imported/shield_bronze.png-3924fad22401f9577a059f74bb05afb3.ctex"
+path="res://.godot/imported/shield_bronze.png-529ed1342d5d126b966be9af0955a36a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/Power-ups/shield_bronze.png"
-dest_files=["res://.godot/imported/shield_bronze.png-3924fad22401f9577a059f74bb05afb3.ctex"]
+source_file="res://assets/PNG/Power-ups/shield_bronze.png"
+dest_files=["res://.godot/imported/shield_bronze.png-529ed1342d5d126b966be9af0955a36a.ctex"]
 
 [params]
 

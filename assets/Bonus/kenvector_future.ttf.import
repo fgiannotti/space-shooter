@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://b0rq2ti5fnhn"
-path="res://.godot/imported/kenvector_future.ttf-e4d7af0ae4ca310de45ad87c9860bc9f.fontdata"
+path="res://.godot/imported/kenvector_future.ttf-a0ce37be6cd5b66f0537c447b8d76870.fontdata"
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/Bonus/kenvector_future.ttf"
-dest_files=["res://.godot/imported/kenvector_future.ttf-e4d7af0ae4ca310de45ad87c9860bc9f.fontdata"]
+source_file="res://assets/Bonus/kenvector_future.ttf"
+dest_files=["res://.godot/imported/kenvector_future.ttf-a0ce37be6cd5b66f0537c447b8d76870.fontdata"]
 
 [params]
 

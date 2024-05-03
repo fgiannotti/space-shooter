@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crhnroonvsci1"
-path="res://.godot/imported/enemyBlack1.png-612ca1ef26a3869dffc10e2d3fa7f1ca.ctex"
+path="res://.godot/imported/enemyBlack1.png-9a4f5c9037ad42b56b33fb12ec44cb66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/Enemies/enemyBlack1.png"
-dest_files=["res://.godot/imported/enemyBlack1.png-612ca1ef26a3869dffc10e2d3fa7f1ca.ctex"]
+source_file="res://assets/PNG/Enemies/enemyBlack1.png"
+dest_files=["res://.godot/imported/enemyBlack1.png-9a4f5c9037ad42b56b33fb12ec44cb66.ctex"]
 
 [params]
 

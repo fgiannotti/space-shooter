@@ -1,0 +1,80 @@
+[gd_scene load_steps=4 format=3 uid="uid://cm30swk1im2qk"]
+
+[ext_resource type="Script" path="res://game_over.gd" id="1_hqgl0"]
+[ext_resource type="FontFile" uid="uid://b34ftq3buqvek" path="res://assets/Bonus/kenvector_future_thin.ttf" id="1_n3yeu"]
+
+[sub_resource type="Theme" id="Theme_4x0rl"]
+default_font = ExtResource("1_n3yeu")
+default_font_size = 20
+
+[node name="GameOver" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hqgl0")
+
+[node name="BG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.227451, 0.180392, 0.247059, 1)
+metadata/_edit_lock_ = true
+
+[node name="GameOverMargin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.0
+offset_top = -39.5
+offset_right = 128.0
+offset_bottom = 39.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameOverMargin"]
+layout_mode = 2
+
+[node name="GameOver" type="Label" parent="GameOverMargin/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_4x0rl")
+theme_override_font_sizes/font_size = 42
+text = "Game Over"
+
+[node name="YourScore" type="Label" parent="GameOverMargin/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_4x0rl")
+theme_override_font_sizes/font_size = 24
+text = "Your Score: "
+horizontal_alignment = 1
+
+[node name="StartOverMargin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_bottom = 20
+
+[node name="Label" type="Label" parent="StartOverMargin"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_n3yeu")
+theme_override_font_sizes/font_size = 32
+text = "Space to restart
+"
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]

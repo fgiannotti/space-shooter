@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://52csa14nevuj"
-path="res://.godot/imported/playerShip1_blue.png-0d97ad2c7cf71cd00be122fc54cc6ab3.ctex"
+path="res://.godot/imported/playerShip1_blue.png-92237cfcf64db4f678b0d0de1236dc63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/PNG/playerShip1_blue.png"
-dest_files=["res://.godot/imported/playerShip1_blue.png-0d97ad2c7cf71cd00be122fc54cc6ab3.ctex"]
+source_file="res://assets/PNG/playerShip1_blue.png"
+dest_files=["res://.godot/imported/playerShip1_blue.png-92237cfcf64db4f678b0d0de1236dc63.ctex"]
 
 [params]
 

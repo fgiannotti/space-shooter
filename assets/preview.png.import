@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chi6vdhbvufc1"
-path="res://.godot/imported/preview.png-597018c33e4dbd0daaccd2542c7055f1.ctex"
+path="res://.godot/imported/preview.png-a680f03a9d5180282694828f1a21451f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_space-shooter-redux/preview.png"
-dest_files=["res://.godot/imported/preview.png-597018c33e4dbd0daaccd2542c7055f1.ctex"]
+source_file="res://assets/preview.png"
+dest_files=["res://.godot/imported/preview.png-a680f03a9d5180282694828f1a21451f.ctex"]
 
 [params]
 
