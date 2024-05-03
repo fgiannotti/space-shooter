@@ -3,6 +3,7 @@ extends Area2D
 var rng := RandomNumberGenerator.new()
 
 signal collision
+signal meteor_destroyed
 # direction
 var dir_x = rng.randf_range(-1,1)
 var dir_y = rng.randf_range(0.5,1)
@@ -29,4 +30,5 @@ func _on_area_entered(area):
 	Global.score += 1
 	get_tree().call_group('ui','refresh_score')
 	area.queue_free()
+	meteor_destroyed.emit()
 	queue_free()

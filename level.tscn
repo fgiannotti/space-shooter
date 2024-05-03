@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://crc4n85rmsp2j"]
+[gd_scene load_steps=12 format=3 uid="uid://crc4n85rmsp2j"]
 
 [ext_resource type="Script" path="res://level.gd" id="1_5l7mm"]
 [ext_resource type="Texture2D" uid="uid://d2t7n2n4bbth" path="res://assets/Backgrounds/darkPurple.png" id="1_7m6hk"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://d27enierwch3s" path="res://assets/PNG/Effects/star2.png" id="5_1bha6"]
 [ext_resource type="Texture2D" uid="uid://pn8wvblxo0ts" path="res://assets/PNG/Effects/star3.png" id="6_ugn4b"]
 [ext_resource type="PackedScene" uid="uid://dwrmp6y1d4uye" path="res://ui.tscn" id="7_wm3hu"]
+[ext_resource type="AudioStream" uid="uid://dygw4bi0vh823" path="res://assets/Bonus/sfx_zap.ogg" id="8_afbfq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lojh6"]
 size = Vector2(1420, 44.75)
@@ -159,6 +160,9 @@ visibility_layer = 9
 metadata/_edit_lock_ = true
 
 [node name="UI" parent="." instance=ExtResource("7_wm3hu")]
+
+[node name="MeteorDestroyed" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_afbfq")
 
 [connection signal="laser" from="Player" to="." method="_on_player_laser"]
 [connection signal="timeout" from="MeteorTimer" to="." method="_on_meteor_timer_timeout"]

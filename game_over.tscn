@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://cm30swk1im2qk"]
+[gd_scene load_steps=5 format=3 uid="uid://cm30swk1im2qk"]
 
 [ext_resource type="Script" path="res://game_over.gd" id="1_hqgl0"]
 [ext_resource type="FontFile" uid="uid://b34ftq3buqvek" path="res://assets/Bonus/kenvector_future_thin.ttf" id="1_n3yeu"]
+[ext_resource type="AudioStream" uid="uid://kyitfci4kne" path="res://assets/Bonus/sfx_lose.ogg" id="3_gmj10"]
 
 [sub_resource type="Theme" id="Theme_4x0rl"]
 default_font = ExtResource("1_n3yeu")
@@ -76,5 +77,8 @@ theme_override_fonts/font = ExtResource("1_n3yeu")
 theme_override_font_sizes/font_size = 32
 text = "Space to restart
 "
+
+[node name="GameOverSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_gmj10")
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]

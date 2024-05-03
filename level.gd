@@ -26,13 +26,18 @@ func _on_meteor_timer_timeout():
 	#3 attach node to scene tree
 	$Meteors.add_child(meteor)
 	meteor.connect('collision', _on_meteor_collision)
-	
+	meteor.connect('meteor_destroyed', _on_meteor_destroyed)
+
 func _on_meteor_collision():
 	health -= 1
 	print('meteor collision')
 	get_tree().call_group('ui','set_health', health)
 	if health == 0:
 		get_tree().change_scene_to_file("res://game_over.tscn")
+	$Player.play_collision_sound()
+
+func _on_meteor_destroyed():
+	$MeteorDestroyed.play()
 
 func _on_player_laser(pos):
 	var laser = laser_scene.instantiate()

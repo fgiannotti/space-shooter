@@ -20,7 +20,10 @@ func _process(_delta):
 		laser.emit($LaserStartPos.global_position)
 		laser_ready = false
 		$LaserCooldown.start()
+		$LaserSound.play()
 
+func play_collision_sound():
+	$DamageSound.play()
 
 func _on_laser_cooldown_timeout():
 	print('UPDATING LASER READY')
